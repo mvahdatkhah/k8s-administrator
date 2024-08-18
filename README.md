@@ -4,18 +4,21 @@ Welcome to the Kubernetes Administrator setup repository! This guide will help y
 
 ## 📚 Table of Contents
 
-- [🎯 Prerequisites](#-prerequisites)
-- [⚙️ Cluster Setup](#️-cluster-setup)
-  - [📦 Install Kubernetes CLI (kubectl)](#install-kubernetes-cli-kubectl)
-  - [🔧 Set Up the Kubernetes Cluster](#-set-up-the-kubernetes-cluster)
+- [🚀 Kubernetes Administrator Setup](#-kubernetes-administrator-setup)
+  - [📚 Table of Contents](#-table-of-contents)
+  - [🎯 Prerequisites](#-prerequisites)
+  - [⚙️ Cluster Setup](#️-cluster-setup)
+    - [📦 Install Kubernetes CLI (kubectl)](#-install-kubernetes-cli-kubectl)
   - [🛠️ Configure kubectl](#️-configure-kubectl)
+- [Check available contexts](#check-available-contexts)
+- [Set the current context](#set-the-current-context)
 - [🔐 Cluster Administration](#-cluster-administration)
   - [🔒 Access Control](#-access-control)
   - [🚀 Deploy Applications](#-deploy-applications)
   - [📊 Monitoring and Logging](#-monitoring-and-logging)
   - [💾 Backup and Recovery](#-backup-and-recovery)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
+  - [🤝 Contributing](#-contributing)
+  - [📄 License](#-license)
 
 ## 🎯 Prerequisites
 
