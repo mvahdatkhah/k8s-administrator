@@ -54,7 +54,6 @@ For more installation options, see the official documentation.
 
 Choose your preferred method to set up the cluster. Here’s how to do it with Minikube:
 
-```bash
 # Install Minikube (if not already installed)
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
