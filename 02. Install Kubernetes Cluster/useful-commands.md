@@ -19,23 +19,23 @@
 
 ##### get priavate ips of each node and add this to each server
 
-    192.168.56.109 master
-    192.168.56.112 worker1
-    192.168.56.113 worker2
+    192.168.56.109 kubemaster1
+    192.168.56.112 kubenode1
+    192.168.56.113 kubenode2
 
 ##### we can now use these names instead of typing the IPs, when nodes talk to each other. After that, assign a hostname to each of these servers
 
 ##### on master server
 
-    sudo hostnamectl set-hostname master 
+    sudo hostnamectl set-hostname kubemaster1 
 
-##### on worker1 server
+##### on kubenode1 server
 
-    sudo hostnamectl set-hostname worker1 
+    sudo hostnamectl set-hostname kubenode1 
 
-##### on worker2 server
+##### on kubenode2 server
 
-    sudo hostnamectl set-hostname worker2
+    sudo hostnamectl set-hostname kubenode2
 
 ### Initialize K8s cluster
 
