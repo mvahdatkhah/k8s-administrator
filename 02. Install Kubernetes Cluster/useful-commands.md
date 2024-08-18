@@ -7,7 +7,7 @@
 
 ##### ssh into ec2 instance with its public ip
 
-    ssh -i ~/.ssh/k8s-node-key.pem ubuntu@54.87.10.16
+    ssh -i ~/.ssh/k8s-node-key.pem ubuntu@192.168.56.109
 
 ### Configure Infrastructure
 
@@ -19,9 +19,9 @@
 
 ##### get priavate ips of each node and add this to each server
 
-    45.14.48.178 master
-    45.14.48.179 worker1
-    45.14.48.180 worker2
+    192.168.56.109 master
+    192.168.56.112 worker1
+    192.168.56.113 worker2
 
 ##### we can now use these names instead of typing the IPs, when nodes talk to each other. After that, assign a hostname to each of these servers
 
@@ -112,7 +112,7 @@
 
 ##### copy the output command and execute on worker node as ROOT
 
-    sudo kubeadm join 172.31.43.99:6443 --token 9bds1l.3g9ypte9gf69b5ft --discovery-token-ca-cert-hash sha256:xxxx
+    sudo kubeadm join 192.168.56.109:6443 --token 9bds1l.3g9ypte9gf69b5ft --discovery-token-ca-cert-hash sha256:xxxx
 
 ##### start a test pod
 
