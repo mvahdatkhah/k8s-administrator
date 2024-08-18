@@ -141,7 +141,3 @@ Contributions are welcome! If you find any issues or have ideas for improvements
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Happy Kubernetes managing! 🎉
-
-```bash
-This README file combines code syntax, emojis, and clear sections to create an engaging and easy-to-follow guide for Kubernetes administrators.
-```
